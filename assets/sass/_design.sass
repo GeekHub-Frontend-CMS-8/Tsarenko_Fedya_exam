@@ -1,0 +1,39 @@
+@import "variables"
+
+@import "mixins"
+
+.design
+  position: relative
+  padding: 146px 0 82px
+  background-color: #fff
+  font-family: $main-font
+  @media (max-width: 768px)
+    flex-wrap: wrap
+
+  &-container
+    display: flex
+    justify-content: space-between
+
+
+  &-info
+    margin-left: auto
+
+  &-info
+    margin-left: auto
+
+.iphone-2
+  position: absolute
+  bottom: 0
+  img
+    display: block
+    width: 100%
+  @media (max-width: 768px)
+    position: relative
+    margin: 30px auto
+    img
+      width: 50%
+
+.number
+  margin-top: 45px
+  color: #373737
+  font-size: 12px
